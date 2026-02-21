@@ -37,13 +37,12 @@ This is a distortion engine.
 
 ---
 
-## Cinematic Preview
+## somthing different
 
 <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXJ4b2F6dGZkY2V3d2ZzZzZ5eW1zYzB2d2Q3c3ZpYjJxZ2x4dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o7btZ3T6y3JTmjg4w/giphy.gif" width="90%" style="border-radius:12px;" />
 
 <br/>
 
-<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="90%" style="border-radius:12px;" />
 
 ---
 
@@ -115,10 +114,6 @@ neural-cursor/
 # Bend reality
 ```
 
-No build tools.
-No frameworks.
-Pure static power.
-
 ---
 
 ## Visual Philosophy
@@ -130,28 +125,10 @@ Inspired by:
 * Neural energy simulations
 * Minimal Apple-like motion language
 
-The goal was to create something that feels alive.
 
 ---
 
-## Performance Notes
 
-* Uses additive blending for glow realism
-* Limited pixel ratio for performance optimization
-* Lightweight shader logic
-* GPU-accelerated rendering pipeline
-
----
-
-## Future Enhancements (Phase II)
-
-* Framebuffer-based liquid trail feedback
-* Volumetric fog layer
-* Particle emission system
-* Neural web connections between UI elements
-* Gesture-based distortion scaling
-
----
 
 ## Author
 
