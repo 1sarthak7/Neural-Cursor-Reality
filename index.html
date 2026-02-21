@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neural Cursor Reality</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body class="bg-black text-white overflow-hidden">
+
+  <div id="start-overlay" class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black transition-opacity duration-700">
+    <h2 class="text-2xl font-light mb-4 tracking-widest text-cyan-400">NEURAL SYNC REQUIRED</h2>
+    <p class="text-sm text-gray-400 mb-8 max-w-md text-center">Allow microphone access to sync the anomaly with your environment's audio frequencies.</p>
+    <button id="start-btn" class="px-8 py-3 border border-cyan-500/50 rounded-full hover:bg-cyan-500/20 transition-colors tracking-widest text-sm uppercase">Initiate Sync</button>
+  </div>
+
+  <div class="ui">
+    <h1 class="title tracking-tighter">Neural Cursor Reality</h1>
+    <p class="subtitle tracking-widest uppercase text-sm">Move your cursor. Bend reality. Make some noise.</p>
+
+    <div class="buttons">
+      <button class="magnetic group">
+        <span class="relative z-10">Explore</span>
+        <div class="absolute inset-0 bg-white/10 rounded-full scale-0 group-hover:scale-100 transition-transform origin-center"></div>
+      </button>
+      <button class="magnetic group">
+        <span class="relative z-10">Enter</span>
+        <div class="absolute inset-0 bg-white/10 rounded-full scale-0 group-hover:scale-100 transition-transform origin-center"></div>
+      </button>
+      <button class="magnetic group">
+        <span class="relative z-10 text-red-400">Destroy</span>
+        <div class="absolute inset-0 bg-red-500/20 rounded-full scale-0 group-hover:scale-100 transition-transform origin-center"></div>
+      </button>
+    </div>
+  </div>
+
+  <canvas id="webgl"></canvas>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
