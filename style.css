@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  cursor: crosshair;
+}
+
+#webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+  z-index: 1;
+}
+
+.ui {
+  position: relative;
+  z-index: 10;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  animation: fadeIn 2s ease forwards 0.5s;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  pointer-events: none;
+  text-shadow: 0 0 20px rgba(0, 200, 255, 0.3);
+}
+
+.subtitle {
+  opacity: 0.7;
+  margin-bottom: 3rem;
+  color: #88ccff;
+}
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+button.magnetic {
+  position: relative;
+  padding: 1rem 3rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.03);
+  pointer-events: auto;
+  cursor: pointer;
+  overflow: hidden;
+}
