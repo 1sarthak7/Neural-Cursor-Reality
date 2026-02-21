@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=NEURAL%20CURSOR%20REALITY&fontSize=55&fontAlignY=35&animation=fadeIn&fontColor=00f5ff&desc=Apple%20×%20%20×%20%20&descAlignY=60&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=250&section=header&text=NEURAL%20CURSOR%20REALITY&fontSize=55&fontAlignY=35&animation=fadeIn&fontColor=00f5ff&desc=%20%20%20×%20D%20&descAlignY=60&descSize=18" width="100%" />
 
 <br/>
 
